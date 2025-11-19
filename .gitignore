@@ -1,0 +1,38 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Python packaging / distribution
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Logs and coverage
+*.log
+.coverage
+htmlcov/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Optional: large DLLs you might have accidentally added
+*.dll
+*.so
+*.exe
